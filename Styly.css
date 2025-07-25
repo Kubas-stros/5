@@ -1,0 +1,86 @@
+h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+img {
+    width: 150px;
+    height: 50px;
+}
+img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.nosnost {
+    width: 100px;
+    background-color: #62dbdb;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}
+.šířka {
+    width: 100px;
+    background-color: #62dbdb;
+    position: absolute;
+    top: 105px;
+    left: 120px;
+}
+label {
+    display: block; /* aby se s inputem choval jako blok */
+    margin-left: 5px; /* posune doprava o 30px */
+    margin-top: 25px; /* posune dolů o 20px */
+    color: aqua
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: larger;
+    background-image: url("images/2.png"); /* uprav cestu podle své složky */
+    background-repeat: no-repeat; /* obrazek se nebude opakovat */
+    background-size: cover; /* roztáhne na celou plochu */
+    background-position: center center; /* vycentruje obrazek */
+    background-attachment: fixed; /* obrazek zůstane na místě při scrollu */
+}
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    accent-color: #007bff; /* moderní barva fajfky v podporovaných prohlížečích */
+}
+.checkbox-label {
+    display: flex;
+    align-items: center; /* Vertikálně vyrovná checkbox a text */
+    gap: 10px; /* Mezera mezi checkboxem a textem */
+    cursor: pointer; /* Změní kurzor na ruku */
+}
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; /* pod obsah */
+  object-fit: cover; /* video se roztáhne a ořízne */
+}
+.verze {
+  width: 250px;
+    height: 250px;
+    position: absolute;
+     top: 150px;
+    left: 400px;
+    
+}
